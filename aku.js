@@ -29,5 +29,5 @@ var motivations = [
 var balxz =
   motivations[Math.floor(Math.random() * motivations.length)];
 
-document.querySelector(".motivation").textContent =
+document.querySelector(".motivations").textContent =
   '"' + balxz + '"';
